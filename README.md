@@ -1,6 +1,9 @@
-# BioStudies MCP Server
+![Logo](logo.png)
+# Unofficial BioStudies MCP Server
 
 A streamlined Model Context Protocol (MCP) server that provides reliable access to the EBI BioStudies database. This server focuses on the core functionality that works consistently with the current BioStudies API, ensuring reliable access to biological study metadata.
+
+**Developed by [Augmented Nature](https://augmentednature.ai)**
 
 ## Features
 
