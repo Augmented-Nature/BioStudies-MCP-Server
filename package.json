@@ -1,0 +1,39 @@
+{
+  "name": "biostudies-mcp-server",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for EBI BioStudies API",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf build"
+  },
+  "keywords": [
+    "mcp",
+    "biostudies",
+    "ebi",
+    "biological-studies",
+    "model-context-protocol"
+  ],
+  "author": "BioStudies MCP Server",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/biostudies-mcp-server.git"
+  },
+  "bin": {
+    "biostudies-mcp-server": "build/index.js"
+  }
+}
